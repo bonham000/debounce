@@ -1,8 +1,8 @@
 /**
  * Debounces a function's execution by a certain time.
  *
- * The returned function will delay execution until the debounceTime has
- * elapsed since the last execution.
+ * The returned function will delay execution until the provided debounce time
+ * has elapsed since the last execution.
  */
 function debounce<Args extends any[]>(
   fn: (...args: Args) => void,
